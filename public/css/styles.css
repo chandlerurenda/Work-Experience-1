@@ -872,7 +872,13 @@ img {
 }
 
 @media (max-width: 680px) {
-  
+  .li #home-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
 }
 
 @media (max-width: 630px) {
