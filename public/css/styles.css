@@ -995,3 +995,9 @@ img {
   cursor: pointer;
   }
 }
+
+@media (max-width: 360px) {
+  #home-btn {
+    display: none;
+  }
+}
