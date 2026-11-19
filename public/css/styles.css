@@ -147,6 +147,10 @@ img {
 
 .burger {
   display: none;
+  background-color: #1f1a17;
+  border: none;
+  color: white;
+  font-size: 16px;
 }
 
 .logo {
@@ -887,7 +891,7 @@ img {
 
 .site-header--home .nav-links li:not(#home-btn),
 .burger {
-  animation: naveFadeIn 300ms ease;
+  animation: navFadeIn 300ms ease;
 }
 
 @media (max-width: 680px) {
@@ -914,10 +918,13 @@ img {
       display: none;
     }
   }
+}
 
+@media (max-width: 670px) {
   .burger {
     display: block;
   }
+  
   
 }
 
