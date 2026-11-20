@@ -156,6 +156,42 @@ img {
   transition: opacity 300ms ease, display 300ms allow-discrete;
 }
 
+.burger__menu--backdrop {
+  position: absolute;
+  background-color: #1f1a17;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burger__menu--close {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.burger__list {
+  padding: 32px 0;
+}
+
+.burger__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.burger__link {
+
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -240,6 +276,7 @@ img {
   margin-left: 12px;
   padding: 10px 20px;
 }
+
 
 /* Home hero */
 
