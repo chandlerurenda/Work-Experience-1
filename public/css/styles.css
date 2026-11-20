@@ -196,7 +196,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .burger__link {
@@ -964,7 +963,7 @@ img {
     transition: all 300ms ease;
   }
 
-  .site-header--home .nav-links li:not(#home-btn) {
+  .site-header--home .nav-links > li:not(#home-btn) {
     animation: fadeOut 300ms forwards;
   }
 
