@@ -176,7 +176,6 @@ img {
 }
 
 
-
 .burger__menu--close {
   position: absolute;
   right: 30px;
@@ -256,6 +255,7 @@ img {
   color: var(--ink);
   text-decoration: none;
 }
+
 
 .nav-links a:hover,
 .nav-links a[aria-current='page'] {
@@ -1054,4 +1054,8 @@ img {
   #home-btn {
     display: none;
   }
+
+  .burger__list {
+  padding: 24px 0;
+}
 }
