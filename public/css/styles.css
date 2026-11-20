@@ -178,7 +178,7 @@ img {
 }
 
 .burger__list {
-  padding: 32px 0;
+  padding: 24px 0;
 }
 
 .burger__links {
@@ -189,7 +189,16 @@ img {
 }
 
 .burger__link {
+  position: relative;
+  font-size: 28px;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  transition: all 300ms ease;
+}
 
+.burger__link:hover {
+  border-bottom: 2px solid #fff;
+  transition: all 300ms ease;
 }
 
 .logo {
